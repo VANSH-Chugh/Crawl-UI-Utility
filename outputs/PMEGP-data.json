@@ -1,0 +1,355 @@
+{
+  "schema_version": "1.2",
+  "id": "928ed028efedf58c",
+  "source_url": "https://dashboard.msme.gov.in/Pmegp_StateWise.aspx?FY=2024-25",
+  "title": "State wise",
+  "retrieved_at": "2026-10-28T07:31:37.679338+00:00",
+  "published_dates": [],
+  "tables": [
+    {
+      "id": "928ed028efedf58c-1",
+      "name": "Prime Minister Employment Generation Programme (PMEGP) Back",
+      "page_url": "https://dashboard.msme.gov.in/Pmegp_StateWise.aspx?FY=2024-25",
+      "columns": [
+        "S.No.",
+        "State Name",
+        "Number of Projects",
+        "Margin Money",
+        "Employement"
+      ],
+      "header_rows": [
+        [
+          {
+            "text": "S.No.",
+            "column": 0,
+            "colspan": 1,
+            "rowspan": 1
+          },
+          {
+            "text": "State Name",
+            "column": 1,
+            "colspan": 1,
+            "rowspan": 1
+          },
+          {
+            "text": "Number of Projects",
+            "column": 2,
+            "colspan": 1,
+            "rowspan": 1
+          },
+          {
+            "text": "Margin Money",
+            "column": 3,
+            "colspan": 1,
+            "rowspan": 1
+          },
+          {
+            "text": "Employement",
+            "column": 4,
+            "colspan": 1,
+            "rowspan": 1
+          }
+        ]
+      ],
+      "context": {
+        "labels": [
+          "Margin Money Disbursed to State in FY - 2024-25"
+        ],
+        "financial_year": "2024-25"
+      },
+      "context_rows": [
+        [
+          {
+            "text": "Margin Money Disbursed to State in FY - 2024-25",
+            "column": 0,
+            "colspan": 5,
+            "rowspan": 1
+          }
+        ]
+      ],
+      "rows": [
+        {
+          "S.No.": "1",
+          "State Name": "ANDAMAN NICOBAR",
+          "Number of Projects": "14",
+          "Margin Money": "1734577.00",
+          "Employement": "112"
+        },
+        {
+          "S.No.": "2",
+          "State Name": "ANDHRA PRADESH",
+          "Number of Projects": "1754",
+          "Margin Money": "931171659.00",
+          "Employement": "14032"
+        },
+        {
+          "S.No.": "3",
+          "State Name": "ARUNACHAL PRADESH",
+          "Number of Projects": "57",
+          "Margin Money": "34131969.00",
+          "Employement": "456"
+        },
+        {
+          "S.No.": "4",
+          "State Name": "ASSAM",
+          "Number of Projects": "1074",
+          "Margin Money": "307233144.00",
+          "Employement": "8592"
+        },
+        {
+          "S.No.": "5",
+          "State Name": "BIHAR",
+          "Number of Projects": "1921",
+          "Margin Money": "445868668.00",
+          "Employement": "15368"
+        },
+        {
+          "S.No.": "6",
+          "State Name": "CHHATTISGARH",
+          "Number of Projects": "866",
+          "Margin Money": "239289351.00",
+          "Employement": "6928"
+        },
+        {
+          "S.No.": "7",
+          "State Name": "DADRA NAGAR HAVELI",
+          "Number of Projects": "1",
+          "Margin Money": "366667.00",
+          "Employement": "8"
+        },
+        {
+          "S.No.": "8",
+          "State Name": "DAMAN AND DIU",
+          "Number of Projects": "3",
+          "Margin Money": "811316.00",
+          "Employement": "24"
+        },
+        {
+          "S.No.": "9",
+          "State Name": "DELHI",
+          "Number of Projects": "16",
+          "Margin Money": "11207895.00",
+          "Employement": "128"
+        },
+        {
+          "S.No.": "10",
+          "State Name": "GOA",
+          "Number of Projects": "19",
+          "Margin Money": "8452821.00",
+          "Employement": "152"
+        },
+        {
+          "S.No.": "11",
+          "State Name": "GUJARAT",
+          "Number of Projects": "1040",
+          "Margin Money": "1260053798.00",
+          "Employement": "8320"
+        },
+        {
+          "S.No.": "12",
+          "State Name": "HARYANA",
+          "Number of Projects": "406",
+          "Margin Money": "203145992.00",
+          "Employement": "3248"
+        },
+        {
+          "S.No.": "13",
+          "State Name": "HIMACHAL PRADESH",
+          "Number of Projects": "295",
+          "Margin Money": "117800177.00",
+          "Employement": "2360"
+        },
+        {
+          "S.No.": "14",
+          "State Name": "JAMMU KASHMIR",
+          "Number of Projects": "2820",
+          "Margin Money": "894101970.00",
+          "Employement": "22560"
+        },
+        {
+          "S.No.": "15",
+          "State Name": "JHARKHAND",
+          "Number of Projects": "206",
+          "Margin Money": "32268658.00",
+          "Employement": "1648"
+        },
+        {
+          "S.No.": "16",
+          "State Name": "KARNATAKA",
+          "Number of Projects": "1242",
+          "Margin Money": "383195675.00",
+          "Employement": "9936"
+        },
+        {
+          "S.No.": "17",
+          "State Name": "KERALA",
+          "Number of Projects": "995",
+          "Margin Money": "246748906.00",
+          "Employement": "7960"
+        },
+        {
+          "S.No.": "18",
+          "State Name": "LADAKH",
+          "Number of Projects": "26",
+          "Margin Money": "12767500.00",
+          "Employement": "208"
+        },
+        {
+          "S.No.": "19",
+          "State Name": "MADHYA PRADESH",
+          "Number of Projects": "1258",
+          "Margin Money": "303515406.00",
+          "Employement": "10064"
+        },
+        {
+          "S.No.": "20",
+          "State Name": "MAHARASHTRA",
+          "Number of Projects": "761",
+          "Margin Money": "499567119.00",
+          "Employement": "6088"
+        },
+        {
+          "S.No.": "21",
+          "State Name": "MANIPUR",
+          "Number of Projects": "235",
+          "Margin Money": "49050751.00",
+          "Employement": "1880"
+        },
+        {
+          "S.No.": "22",
+          "State Name": "MEGHALAYA",
+          "Number of Projects": "196",
+          "Margin Money": "46249094.00",
+          "Employement": "1568"
+        },
+        {
+          "S.No.": "23",
+          "State Name": "MIZORAM",
+          "Number of Projects": "128",
+          "Margin Money": "55425660.00",
+          "Employement": "1024"
+        },
+        {
+          "S.No.": "24",
+          "State Name": "NAGALAND",
+          "Number of Projects": "414",
+          "Margin Money": "163422831.00",
+          "Employement": "3312"
+        },
+        {
+          "S.No.": "25",
+          "State Name": "ODISHA",
+          "Number of Projects": "808",
+          "Margin Money": "194631297.00",
+          "Employement": "6464"
+        },
+        {
+          "S.No.": "26",
+          "State Name": "PUDUCHERRY",
+          "Number of Projects": "21",
+          "Margin Money": "6149000.00",
+          "Employement": "168"
+        },
+        {
+          "S.No.": "27",
+          "State Name": "PUNJAB",
+          "Number of Projects": "532",
+          "Margin Money": "449656171.00",
+          "Employement": "4256"
+        },
+        {
+          "S.No.": "28",
+          "State Name": "RAJASTHAN",
+          "Number of Projects": "452",
+          "Margin Money": "396446803.00",
+          "Employement": "3616"
+        },
+        {
+          "S.No.": "29",
+          "State Name": "SIKKIM",
+          "Number of Projects": "44",
+          "Margin Money": "12849899.00",
+          "Employement": "352"
+        },
+        {
+          "S.No.": "30",
+          "State Name": "TAMIL NADU",
+          "Number of Projects": "1379",
+          "Margin Money": "458100997.00",
+          "Employement": "11032"
+        },
+        {
+          "S.No.": "31",
+          "State Name": "TELANGANA",
+          "Number of Projects": "725",
+          "Margin Money": "326208129.00",
+          "Employement": "5800"
+        },
+        {
+          "S.No.": "32",
+          "State Name": "TRIPURA",
+          "Number of Projects": "209",
+          "Margin Money": "53298366.00",
+          "Employement": "1672"
+        },
+        {
+          "S.No.": "33",
+          "State Name": "UTTAR PRADESH",
+          "Number of Projects": "3237",
+          "Margin Money": "1254093862.00",
+          "Employement": "25896"
+        },
+        {
+          "S.No.": "34",
+          "State Name": "UTTARAKHAND",
+          "Number of Projects": "392",
+          "Margin Money": "108816357.00",
+          "Employement": "3136"
+        },
+        {
+          "S.No.": "35",
+          "State Name": "WEST BENGAL",
+          "Number of Projects": "537",
+          "Margin Money": "203853296.00",
+          "Employement": "4296"
+        }
+      ],
+      "totals": [
+        {
+          "label": "Grand Total",
+          "values": {
+            "Number of Projects": "24083",
+            "Margin Money": "9711685781.00",
+            "Employement": "192664"
+          },
+          "cells": [
+            {
+              "text": "Grand Total",
+              "column": 0,
+              "colspan": 2,
+              "rowspan": 1
+            },
+            {
+              "text": "24083",
+              "column": 2,
+              "colspan": 1,
+              "rowspan": 1
+            },
+            {
+              "text": "9711685781.00",
+              "column": 3,
+              "colspan": 1,
+              "rowspan": 1
+            },
+            {
+              "text": "192664",
+              "column": 4,
+              "colspan": 1,
+              "rowspan": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

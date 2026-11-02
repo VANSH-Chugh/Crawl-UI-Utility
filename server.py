@@ -6,6 +6,7 @@ import http.client
 import io
 import ipaddress
 import json
+import os
 import re
 import socket
 import ssl
@@ -22,6 +23,9 @@ ROOT = Path(__file__).parent
 DATA_DIR = ROOT / 'data' / 'datasets'
 AGENT = 'CivicTable/1.0'
 MAX_BYTES = 4_000_000
+# Extra browser origins (comma-separated) when served behind a reverse proxy.
+ALLOWED_ORIGINS = {'http://127.0.0.1:8000', 'http://localhost:8000',
+                   *filter(None, (o.strip().rstrip('/') for o in os.environ.get('CIVICTABLE_ORIGINS', '').split(',')))}
 CACHE = {}
 LOCK = threading.Lock()
 
@@ -620,7 +624,7 @@ class Handler(BaseHTTPRequestHandler):
     def do_POST(self):
         # Only this local UI may trigger stateful operations through a browser.
         origin = self.headers.get('Origin')
-        if origin and origin not in ('http://127.0.0.1:8000', 'http://localhost:8000'):
+        if origin and origin not in ALLOWED_ORIGINS:
             return self.send({'error': 'Origin not allowed'}, 403)
         try:
             length = int(self.headers.get('Content-Length', 0))

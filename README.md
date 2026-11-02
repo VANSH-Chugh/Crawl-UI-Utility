@@ -158,6 +158,7 @@ Returns a `.pptx` starting directly with data, with original headings, a visible
 - Fetches server-rendered HTML tables. JavaScript-only grids, PDFs, CAPTCHA, authentication, and advanced pagination require adapters.
 - Checks robots.txt; blocks disallowed pages and reports unavailable policies (except missing robots.txt). Uses a one-second delay between additional pages of a source.
 - Public HTTP/S addresses on standard ports only, with validated IP-pinned connections and redirect checks. Maximum HTML response size is 4 MB; socket timeout is 12 seconds. No user-supplied credentials.
+- Behind a reverse proxy (for example Nginx on a cloud server), set `CIVICTABLE_ORIGINS` to the comma-separated public origins users open, such as `https://civictable.example.com,http://203.0.113.10`. Otherwise browser POST requests are rejected with "Origin not allowed".
 - The server binds to loopback only. It has no authentication, scheduler, or cross-origin API access. Use it from local scripts or a same-origin app; production API hosting needs these additions. Saved JSON files persist locally; delete unneeded files from `data/datasets` when the server is stopped.
 - Government domains are not hardcoded: public statistical sources may live on other domains. Users choose and verify their sources.
 - CSV downloads neutralize formula-leading cell values for safe spreadsheet opening.
